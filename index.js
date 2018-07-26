@@ -13,7 +13,7 @@ const deploy = function deploy(options) {
 
   // configuration
   const config = {
-    s3BucketName: accessKeyId.s3BucketName,
+    s3BucketName: options.s3BucketName,
     // path relative script's location
     folderPath: options.folderPath
   };
